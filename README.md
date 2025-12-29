@@ -84,9 +84,9 @@ Acesse o Grafana para ver a mágica acontecer:
 
 ### 📸 Screenshot do Projeto
 
-![Maquinas](prints\Maquinas-iniciando.png)
-![Dashboard](prints\Grafana.png)
-![Badge](prints\Badge.png)
+![Maquinas](prints/Maquinas-iniciando.png)
+![Dashboard](prints/Grafana.png)
+![Badge](prints/Badge.png)
 
 ---
 

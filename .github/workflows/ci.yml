@@ -1,0 +1,21 @@
+name: CI Pipeline
+on: [push]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar Dependências
+        run: |
+          pip install -r app/requirements.txt
+
+      - name: Build Docker (Teste de Integridade)
+        run: docker build . -t app-teste

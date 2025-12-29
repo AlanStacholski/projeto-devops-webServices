@@ -1,0 +1,7 @@
+global:
+  scrape_interval: 5s # Coleta métricas a cada 5 segundos
+
+scrape_configs:
+  - job_name: 'fastapi_app'
+    static_configs:
+      - targets: ['app:8000'] # 'app' é o nome do serviço no docker-compose

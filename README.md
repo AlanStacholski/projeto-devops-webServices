@@ -1,8 +1,10 @@
-
-```markdown
 # ⚡ DevOps Flash Project: Pipeline CI/CD & Observabilidade
 
-![CI Pipeline](https://github.com/AlanStacholski/projeto-devops-webServices/actions/workflows/ci.yml/badge.svg) ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white) ![Grafana](https://img.shields.io/badge/Observability-Grafana-F46800?logo=grafana&logoColor=white)
+[![CI Pipeline](https://github.com/AlanStacholski/projeto-devops-webServices/actions/workflows/ci.yml/badge.svg)](https://github.com/AlanStacholski/projeto-devops-webServices/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![Grafana](https://img.shields.io/badge/Observability-Grafana-F46800?logo=grafana&logoColor=white)
+
 > **Projeto prático de Engenharia de Software simulando um ambiente de produção completo com instrumentação de métricas, containerização e testes automatizados.**
 
 ---
@@ -82,9 +84,9 @@ Acesse o Grafana para ver a mágica acontecer:
 
 ### 📸 Screenshot do Projeto
 
-* `![Maquinas](prints\Maquinas iniciando.png)`*
-* `![Dashboard](prints\Grafana.png)`*
-* `![Badge](prints\Badge.png)`*
+![Maquinas](prints\Maquinas-iniciando.png)
+![Dashboard](prints\Grafana.png)
+![Badge](prints\Badge.png)
 
 ---
 
